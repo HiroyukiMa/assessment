@@ -1,18 +1,30 @@
 body {
-    background-color: #04A6EB;
-    color: #FDFFFF;
+    background-color: #ddd;
+    color: rgb(0, 0, 0);
     width: 500px;
     margin-right: auto;
     margin-left : auto;
 }
 
-button {
+#assessment {
+    color: white;
+    width: 60px;
+    font-size: 14px;
+    text-align: center;
+    height: 20px;
     padding: 5px 20px;
-    background-color: #f3faf7;
-    border-color: #2E6D63;
-    border-style: none;
+    background-color: #0088cc;
+    border-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.container > div {
+    float: left;
 }
 
 input {
-    height: 20px;
+    height: 25px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: none;
 }
